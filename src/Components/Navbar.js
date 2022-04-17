@@ -6,8 +6,8 @@ import './Navbar.css'
 const Navbar = () => {
   return (
       <>
-    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
-    <div className="container- " style={{fontSize:'20px', }}>
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div className="container-fluid" style={{fontSize:'20px', }}>
       <a className="navbar-brand" href="/"><img src={img1} alt="IEDC" style={{height:'70px',width:'250px'}}/></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </li>
         </ul>
-        <a className="btn btn-outline-dark" href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
+        <a className="btn btn-outline-dark " href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
       </div>
     </div>
   </nav>
