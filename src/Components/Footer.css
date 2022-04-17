@@ -1,0 +1,83 @@
+
+.mainfooter {
+    background-color: black;
+    margin-top: 20px;
+}
+
+#mfooter {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    /* justify-content: center; */
+
+}
+
+.flogo {
+   height: 150px;
+   width: 150px;
+   padding-bottom: 10px;
+   border-radius: 36px;
+
+}
+
+.fhead {
+    color: #f8f8f8;
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+}
+
+#finfo, #fhelp,#fosn{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffc429;
+    padding-left: 1.3em;
+    margin-left: 0px;
+}
+
+
+
+#ffollow {
+    color: white;
+    /* margin-right:2em; */
+    padding-right: 2em;
+}
+
+#ftxt {
+    color: tomato;
+}
+
+ .f1,.f2,.f3,.f4
+/* .mainfooter #mfooter .f3  */
+{
+    margin-top: 2em;
+}
+.mainfooter #mfooter .f2 li ,
+.mainfooter #mfooter .f3 li
+{
+    /* margin: 1em 0em 1em 0em; */
+    padding-bottom:1em ;
+
+}
+.mainfooter #mfooter .f2 a,
+.mainfooter #mfooter .f3 a
+{
+    
+    color: white;
+    text-decoration: none;
+}
+.mainfooter #mfooter .f3 a:active,
+.mainfooter #mfooter .f3 a:visited,
+.mainfooter #mfooter .f2 a:active,
+.mainfooter #mfooter .f2 a:visited{
+    color: white;
+}
+.mainfooter #mfooter .f2 a:hover,
+.mainfooter #mfooter .f3 a:hover{
+    color: orange;
+}
+
+/* #fcopyright {
+    color: #f8f8f8;
+    font-family: 'Ubuntu', sans-serif;
+    align-self: ;
+} */
