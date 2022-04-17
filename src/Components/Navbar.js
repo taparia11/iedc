@@ -6,8 +6,8 @@ import './Navbar.css'
 const Navbar = () => {
   return (
       <>
-    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div className="container-fluid" style={{fontSize:'20px', }}>
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+    <div className="container- " style={{fontSize:'20px', }}>
       <a className="navbar-brand" href="/"><img src={img1} alt="IEDC" style={{height:'70px',width:'250px'}}/></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -22,8 +22,8 @@ const Navbar = () => {
               Projects
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a className="dropdown-item" href="/1year">1 Year</a></li>
-              <li><a className="dropdown-item" href="/2year">2 Year</a></li>
+              <li><a className="dropdown-item" href="/1yearprojects">1 Year</a></li>
+              <li><a className="dropdown-item" href="/2yearprojects">2 Year</a></li>
             </ul>
           </li>
           <li className="nav-item">
