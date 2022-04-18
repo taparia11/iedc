@@ -27,10 +27,10 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Committees">Committees</a>
+            <a className="nav-link" href="/committees">Committees</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Activities">Activities</a>
+            <a className="nav-link" href="/activities">Activities</a>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,6 +43,7 @@ const Navbar = () => {
           </li>
         </ul>
         <a className="btn btn-outline-dark " href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
+       
       </div>
     </div>
   </nav>
