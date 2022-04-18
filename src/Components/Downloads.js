@@ -9,21 +9,21 @@ const Downloads = (props) => {
     <>
     <section id="downloads">
       <div className="container pt-2">
-        <h3 className="section-header">Downloads</h3>
+        <h3 className="section-header text-center"><b>Downloads</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
         <div className="row download-item">
-          <div className="col-lg-12 col-xl-6" style="height:100%">
+          <div className="col-lg-12 col-xl-6" style={{height:"100%"}}>
             <h3 className="section-header">Action Plan:2020-21</h3>
             <object
-              data="./assets/downloads/action_plan.pdf"
+              data={require("../Assets/downloads/action_plan.pdf")}
               type="application/pdf"
               width="100%"
               height="100%"
             ></object>
           </div>
-          <div className="col-lg-12 col-xl-6" style="height:100%">
+          <div className="col-lg-12 col-xl-6" style={{height:"100%"}}>
             <h3 className="section-header">Progress Report:2019-20</h3>
             <object
-              data="./assets/downloads/progress_report.PDF"
+              data={require("../Assets/downloads/progress_report.PDF")}
               type="application/pdf"
               width="100%"
               height="100%"
