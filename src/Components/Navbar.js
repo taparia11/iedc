@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from '../Assets/image/iedc-logo.PNG'
-import img2 from '../Assets/image/srm-logo.png'
+// import img2 from '../Assets/image/srm-logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </li>
         </ul>
-        <a className="btn btn-outline-dark " href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
+        <a className="btn btn-outline-dark" rel="noreferrer" href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
        
       </div>
     </div>
