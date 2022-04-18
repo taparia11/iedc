@@ -18,6 +18,7 @@ const Downloads = (props) => {
               type="application/pdf"
               width="100%"
               height="100%"
+              aria-label='Action Plan:2020-21 PDF'
             ></object>
           </div>
           <div className="col-lg-12 col-xl-6" style={{height:"100%"}}>
@@ -27,6 +28,7 @@ const Downloads = (props) => {
               type="application/pdf"
               width="100%"
               height="100%"
+              aria-label='Progress Report:2019-20 PDF'
             ></object>
           </div>
         </div>
