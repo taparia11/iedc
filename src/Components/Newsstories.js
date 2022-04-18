@@ -15,6 +15,7 @@ const Newsstories = (props) => {
             <a
               href="https://www.phoenixmedia.co.in/2019/05/students-start-up-seed-awarded-grant-of.html"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 height="100%"
@@ -29,6 +30,7 @@ const Newsstories = (props) => {
             <a
               href="https://newstodaynet.com/index.php/2019/05/22/srm-grants-funds-for-4-students-startups/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 height="100%"
@@ -43,6 +45,7 @@ const Newsstories = (props) => {
             <a
               href="https://www.edexlive.com/happening/2019/jun/18/this-platform-helps-local-retailers-get-back-in-the-game-by-providing-effective-strategies-for-bette-6654.html"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 height="100%"
