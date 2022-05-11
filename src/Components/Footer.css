@@ -1,7 +1,11 @@
 
 .mainfooter {
-    background-color: black;
-    /* margin-top: 20px; */
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    
+    position: relative;
+    height: auto;
+    margin-top: 0px;
 }
 
 #mfooter {
@@ -9,6 +13,7 @@
     flex-wrap: wrap; 
     justify-content: space-evenly;
     /* justify-content: center; */
+    
 
 }
 
@@ -16,7 +21,7 @@
    height: 150px;
    width: 150px;
    padding-bottom: 10px;
-   border-radius: 36px;
+   border-radius: 100%;
 
 }
 
@@ -24,7 +29,7 @@
     color: #f8f8f8;
     font-size: 28px;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 #finfo, #fhelp,#fosn{
@@ -50,6 +55,7 @@
 /* .mainfooter #mfooter .f3  */
 {
     margin-top: 2em;
+    margin-bottom: 1em;
 }
 .mainfooter #mfooter .f2 li ,
 .mainfooter #mfooter .f3 li
@@ -81,3 +87,17 @@
     font-family: 'Ubuntu', sans-serif;
     align-self: ;
 } */
+
+.fologo{
+    width: 2vw;
+    height: 3vh;
+    margin: 10px;
+}
+.folink{
+    text-decoration: none;
+}
+
+#fcopyright{
+    color: white;
+    background-color: #000000;
+}

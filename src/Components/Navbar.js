@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </li>
         </ul>
-        <a className="btn btn-outline-dark" rel="noreferrer" href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform" target={"_blank"} >Apply Now</a>
+        <a className="btn btn-outline-dark" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScO_CTxM6T_dSOJ9fuxQ-QpzfHMLJOc4oYN3kjHzSh_d0khzQ/viewform" target={"_blank"} >Apply Now</a>
        
       </div>
     </div>
