@@ -15,6 +15,9 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
+            <a className="nav-link" aria-current="page" href="https://www.srmiic.com/">SIIEC</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item dropdown">
@@ -22,8 +25,9 @@ const Navbar = () => {
               Projects
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a className="dropdown-item" href="/1yearprojects">1 Year</a></li>
-              <li><a className="dropdown-item" href="/2yearprojects">2 Year</a></li>
+              <li><a className="dropdown-item" href="/1yearprojects">1ˢᵗ Year</a></li>
+              <li><a className="dropdown-item" href="/2yearprojects">2ⁿᵈ Year</a></li>
+              <li><a className="dropdown-item" href="/3yearprojects">3ʳᵈ Year</a></li>
             </ul>
           </li>
           <li className="nav-item">
@@ -42,7 +46,7 @@ const Navbar = () => {
             </ul>
           </li>
         </ul>
-        <a className="btn btn-outline-dark" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScO_CTxM6T_dSOJ9fuxQ-QpzfHMLJOc4oYN3kjHzSh_d0khzQ/viewform" target={"_blank"} >Apply Now</a>
+        <a className="btn btn-outline-dark" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeThssqmqvo21DAy_NCNf0mjSZmJylbg03COOCv8h6FNuY83w/closedform" target={"_blank"} >Apply Now</a>
        
       </div>
     </div>

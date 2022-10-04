@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Ptablecard from './Ptablecard'
+import projects1 from './1year'
 const Ptable1 = () => {
   return (
     <>
@@ -15,7 +16,11 @@ const Ptable1 = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
+
+      {projects1.map((item) => {
+                    return <Ptablecard props={item} />;
+                  })}
+        {/* <tr>
           <th scope="row">1</th>
           <td>NIS0001 Monkwish</td>
           <td>
@@ -37,9 +42,9 @@ const Ptable1 = () => {
               >Gallery</a
             >
           </td>
-        </tr>
+        </tr> */}
 
-        <tr>
+        {/* <tr>
           <th scope="row">2</th>
           <td>NIS0002 Rizel</td>
           <td>
@@ -532,7 +537,7 @@ const Ptable1 = () => {
               >Gallery</a
             >
           </td>
-        </tr>
+        </tr> */}
       </tbody>
     </table>
     </>

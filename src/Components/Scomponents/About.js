@@ -1,5 +1,5 @@
 import React from 'react'
-
+import  '../../css/globals.css'
 const About = () => {
   return (
    <>
@@ -31,14 +31,16 @@ const About = () => {
           </div>
   </section>
   <section className="kz-section">
-    <h2 data-aos="fade-down" className="section-title"><span>M</span>ission<span> !!</span></h2>
+    <h2 data-aos="fade-down" className="section-title"><span>M</span>ission<span>!</span></h2>
     <div className="container mt-5">
         <div className="row mt-5 aboutus-content">
             <div className="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-right">
               <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_i7dxj8qw.json"  background="transparent"  speed="1"  style={{width: '400px', height: '300px'}}  loop  autoplay></lottie-player>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
-                <p style={{paddingTop: '50px'}} >
+                <p style={{
+
+                  paddingTop: '50px'}} >
                   "
                     Promote knowledge-based and technology-driven start-ups by harnessing
                     young minds and their innovation potential in an academic environment
