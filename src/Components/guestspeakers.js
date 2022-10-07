@@ -10,7 +10,7 @@ const guest = [
     name: "Dr. Ikhlaq Sidhu",
     title: "Director",
     office:
-      "Sutardja Center of Entrepreneurship &amp; Technology , UC Berkeley",
+      "Sutardja Center of Entrepreneurship & Technology,UC Berkeley",
   },
   {
     id: 3,

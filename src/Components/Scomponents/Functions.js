@@ -103,7 +103,7 @@ const Functions = () => {
   </div>
 </section>
 
-<footer id="footer">
+{/* <footer id="footer">
     <div class="footer-newsletter">
             <div class="container">
             <div class="row justify-content-center">
@@ -117,7 +117,7 @@ const Functions = () => {
             </div>
             </div>
         </div>
-</footer>
+</footer> */}
     </>
   )
 }

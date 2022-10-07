@@ -18,11 +18,11 @@ const Committees = (props) => {
       <section id="committees">
         <div className="container pt-2">
           <h3 className="section-header text-center commitee-head">Committees</h3>
-          <div className="row justify-content-center">
+          <div className="row">
             <div className="col-auto">
               <h3 className="section-header">Advisory board members</h3>
               
-              <table className="table table-responsive">
+              <table className=" table table-responsive">
                 <thead className="thead-dark">
                   <tr>
                     <th scope="col">S.no</th>

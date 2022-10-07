@@ -11,7 +11,7 @@ const Projects3 = (props) => {
   return (
     <>
       <Ptable3 />
-      {/* <Pmodal3 /> */}
+      <Pmodal3 />
     </>
   );
 };
