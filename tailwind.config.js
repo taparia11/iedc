@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}]"],
+  content: ["./src/Components/Footer.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ubuntu: ["Ubuntu", "sans-serif"],
+      },
+    },
+    colors: {
+      primaryYellow: "#FFBF00",
+    },
   },
   plugins: [],
 }

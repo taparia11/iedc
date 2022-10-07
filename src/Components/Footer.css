@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 .mainfooter {
     background-color: rgb(0, 0, 0);
@@ -18,8 +22,9 @@
 }
 
 .flogo {
-   height: 8rem;
-   width: 8rem;
+   height: 150px;
+   width: 150px;
+   padding-bottom: 10px;
    border-radius: 100%;
 
 }
@@ -100,15 +105,3 @@
     color: white;
     background-color: #000000;
 }
-
-.logofoot{
-    width: 6rem;
-
-}
-
-@media screen and (min-width: 768px) 
-{
-    .logofoot{
-        width: 8rem;
-    }
- }
