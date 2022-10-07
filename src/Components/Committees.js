@@ -17,10 +17,11 @@ const Committees = (props) => {
     <>
       <section id="committees">
         <div className="container pt-2">
-          <h3 className="section-header text-center">Committees</h3>
+          <h3 className="section-header text-center commitee-head">Committees</h3>
           <div className="row justify-content-center">
             <div className="col-auto">
               <h3 className="section-header">Advisory board members</h3>
+              
               <table className="table table-responsive">
                 <thead className="thead-dark">
                   <tr>
@@ -29,6 +30,7 @@ const Committees = (props) => {
                     <th scope="col">Designation</th>
                     <th scope="col">Representation</th>
                   </tr>
+                  
                 </thead>
                 
                   {users.map((item) => {

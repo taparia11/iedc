@@ -4,16 +4,14 @@ export default function Ptablecard({ props }) {
       <tr>
         <th scope="row">{props.id}</th>
         <td>{props.name}</td>
+        <td>{props.desc}</td>
+        <td>{props.stage?props.stage:""}</td>
         <td>
-          {props.desc}
-        </td>
-        <td>
-            {props.mode}
-        </td>
-        <td>{props.stage}
-        </td>
-        <td>
-          <a className="btn btn-success" data-toggle="modal" href={`#Modal${props.id}`}>
+          <a
+            className="btn btn-success"
+            data-toggle="modal"
+            href={`#Modal${props.id}`}
+          >
             Gallery
           </a>
         </td>

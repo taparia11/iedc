@@ -20,7 +20,7 @@ const purchase2 = [
     {
      "id": 4,
      "name": "Dr. Shantanu Patil",
-     "title": "Head, SRM Innovation and Design Centre",
+     "title": "Associate Director, Innovation Incubation and Entrepreneurship Center",
      "office": "SRMIST"
     },
     {
@@ -31,8 +31,8 @@ const purchase2 = [
     },
     {
      "id": 6,
-     "name": "Mr. Ananth Kumar",
-     "title": "Asst. Professor (Management) & Executive Secretary",
+     "name": "Dr. Ananth Kumar",
+     "title": "Chief Innovation Officer, Innovation Incubation and Entrepreneurship Center",
      "office": "SRMIST"
     },
     {

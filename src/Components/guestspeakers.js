@@ -1,80 +1,166 @@
 const guest = [
-    {
-     "id": 1,
-     "name": "Mrs. Vandhana Ramanathan,",
-     "title": "Co-founder",
-     "office": "Wsquard"
-    },
-    {
-     "id": 2,
-     "name": "Dr. Ikhlaq Sidhu",
-     "title": "Director",
-     "office": "Sutardja Center of Entrepreneurship &amp; Technology , UC Berkeley"
-    },
-    {
-     "id": 3,
-     "name": "Mr. Chandran Krishnan,",
-     "title": "CEO",
-     "office": "Chennai Angels"
-    },
-    {
-     "id": 4,
-     "name": "Mr. Balaji Sadagapan",
-     "title": "Co-founder",
-     "office": "Chai Kings"
-    },
-    {
-     "id": 5,
-     "name": "Dr. Ramesh Kandadai",
-     "title": "Expert in Unmanned Aerial System"
-    },
-    {
-     "id": 6,
-     "name": "Dr. Anbu Rathinavel",
-     "title": "Chief Design Officer",
-     "office": "Intellect Design"
-    },
-    {
-     "id": 7,
-     "name": "Mr. Arun Jain",
-     "title": "Founder",
-     "office": "Intellect Design"
-    },
-    {
-     "id": 8,
-     "name": "Dr. Shivraj Rajadurai",
-     "title": "Director Research",
-     "office": "Sarada Motors"
-    },
-    {
-     "id": 9,
-     "name": "Mr. Ramesh Somasundaram",
-     "title": "Founder",
-     "office": "Energica ASPL"
-    },
-    {
-     "id": 10,
-     "name": "Mrs. Devakshi Dhawan",
-     "title": "Portfolio and Program Manager",
-     "office": "Social Alpha"
-    },
-    {
-     "id": 11,
-     "name": "Dr Biju Jacob",
-     "title": "Program Director",
-     "office": "UN Health Innovation Exchange- India Accelerator( FISE )"
-    },
-    {
-     "id": 12,
-     "name": "Mr. Nikhil Chandwadkar",
-     "title": "Co Founder",
-     "office": "Carto Sense"
-    },
-    {
-     "id": 13,
-     "name": "Mr. Vikram Viswanathan",
-     "title": "Founder &amp; CEO",
-     "office": "Invitreo"
-    }
-   ]
+  {
+    id: 1,
+    name: "Mrs. Vandhana Ramanathan",
+    title: "Co-founder",
+    office: "Wsquard",
+  },
+  {
+    id: 2,
+    name: "Dr. Ikhlaq Sidhu",
+    title: "Director",
+    office:
+      "Sutardja Center of Entrepreneurship &amp; Technology , UC Berkeley",
+  },
+  {
+    id: 3,
+    name: "Mr. Chandran Krishnan,",
+    title: "CEO",
+    office: "Chennai Angels",
+  },
+  {
+    id: 4,
+    name: "Mr. Balaji Sadagapan",
+    title: "Co-founder",
+    office: "Chai Kings",
+  },
+  {
+    id: 5,
+    name: "Dr. Ramesh Kandadai",
+    title: "Expert in Unmanned Aerial System",
+  },
+  {
+    id: 6,
+    name: "Dr. Anbu Rathinavel",
+    title: "Chief Design Officer",
+    office: "Intellect Design",
+  },
+  {
+    id: 7,
+    name: "Mr. Arun Jain",
+    title: "Founder",
+    office: "Intellect Design",
+  },
+  {
+    id: 8,
+    name: "Dr. Shivraj Rajadurai",
+    title: "Director Research",
+    office: "Sarada Motors",
+  },
+  {
+    id: 9,
+    name: "Mr. Ramesh Somasundaram",
+    title: "Founder",
+    office: "Energica ASPL",
+  },
+  {
+    id: 10,
+    name: "Mrs. Devakshi Dhawan",
+    title: "Portfolio and Program Manager",
+    office: "Social Alpha",
+  },
+  {
+    id: 11,
+    name: "Dr Biju Jacob",
+    title: "Program Director",
+    office: "UN Health Innovation Exchange- India Accelerator( FISE )",
+  },
+  {
+    id: 12,
+    name: "Mr. Nikhil Chandwadkar",
+    title: "Co Founder",
+    office: "Carto Sense",
+  },
+  {
+    id: 13,
+    name: "Mr. Vikram Viswanathan",
+    title: "Founder &amp; CEO",
+    office: "Invitreo",
+  },
+  {
+    id: 17,
+    name: "Mr. Suresh",
+    title: "Entrepreneur amd Renewable Energy Expert",
+  },
+  {
+    id: 18,
+    name: "Mr. Shivendu Nadkarni",
+    title: "Corporation Advisor & Adjunct Associate professor",
+  },
+  {
+    id: 19,
+    name: "Mr. Chandrasekhar Kupperi",
+    title: "Angel Investor",
+  },
+  {
+    id: 20,
+    name: "Anchita Nair",
+    title: "Co-Founder & COO",
+    office: "Culture Wave Pvt. Ltd.",
+  },
+  {
+    id: 21,
+    name: "Surya Varshan",
+    title: "Founder",
+    office: "Naked Nature",
+  },
+  {
+    id: 22,
+    name: "Rick Rasmussen",
+    title: "Director of Startup Programmes",
+    office: "UC Berkeley",
+  },
+  {
+    id: 23,
+    name: "Priya Gopalan",
+    title: "Co-Founder",
+    office: "Great Goals",
+  },
+  {
+    id: 24,
+    name: "Vignesh Sandaradasse",
+    title: "CBO",
+    office: "Ippopay Technollogies Pvt Ltd",
+  },
+  {
+    id: 25,
+    name: "V Ramakrishnan",
+    title: "Design Thinking Expert",
+    office: "School of Design Thinking",
+  },
+  {
+    id: 26,
+    name: "Vanita  Shankar",
+    title: "Design Strategist & Transformation Consultant",
+  },
+  {
+    id: 27,
+    name: "Kannan Doss",
+    title: "Founder",
+    office: "Spice Route",
+  },
+  {
+    id: 28,
+    name: "Jayshree Suresh",
+    title: "Adjunct Faculty",
+    office: "Crescent School of Business",
+  },
+  {
+    id: 29,
+    name: "Siva Ragavi",
+    title: "Co-Founder",
+    office: "Startup Culture",
+  },
+  {
+    id: 30,
+    name: "Vineet Neeraj",
+    title: "Investment Banker Multiple Startups",
+  },
+  {
+    id: 31,
+    name: "Shyam Prashad Rajasekaran",
+    title: "Co-Founder & CEO",
+    office: "Veg Route",
+  },
+];
 export default guest;

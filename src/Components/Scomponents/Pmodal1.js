@@ -31,7 +31,7 @@ const Pmodal1 = () => {
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">×</span>
+              <span aria-hidden="true">X</span>
             </button>
           </div>
           <div className="modal-body">

@@ -6,7 +6,7 @@ const Fo = () => {
     <section id="facilities">
   <div className="container pt-2">
     <div className="section-title" data-aos="fade-up" style={{paddingBottom: '30px'}}>
-      <h2>Facilites</h2>
+      <h2>Facilities</h2>
 
     </div>
     <div className="row ">

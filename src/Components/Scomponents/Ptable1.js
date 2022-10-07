@@ -10,7 +10,6 @@ const Ptable1 = () => {
           <th scope="col">#</th>
           <th scope="col">Team Name</th>
           <th scope="col">Brief About Project</th>
-          <th scope="col">Intervention Mode</th>
           <th scope="col">Current Status</th>
           <th scope="col">Gallery</th>
         </tr>

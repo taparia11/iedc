@@ -256,13 +256,13 @@ export const Footer = () => {
             <h4 className="text-primaryYellow font-ubuntu font-bold">Information</h4>
             <ul id="ftxt">
               <li>
-                <a href="./about">About Us</a>
+                <a href="https://www.srmiic.com/about">About Us</a>
               </li>
               <li>
-                <a href="./event">Events</a>
+                <a href="https://www.srmiic.com/event">Events</a>
               </li>
               <li>
-                <a href="./team">Our Teams</a>
+                <a href="https://www.srmiic.com/team">Our Teams</a>
               </li>
             </ul>
           </div>
@@ -270,7 +270,7 @@ export const Footer = () => {
             <h4 className="text-primaryYellow font-ubuntu font-bold">Helpful Links</h4>
             <ul id="ftxt">
               <li>
-                <a href="./partner">Partners</a>
+                <a href="https://www.srmiic.com/partner">Partners</a>
               </li>
 
               <li>
