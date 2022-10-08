@@ -324,7 +324,7 @@ export const Footer = () => {
 
       <div id="fcopyright">
         <div style={{ marginLeft: "75px", paddingBottom: "10px" }}>
-          &#169;Copyright <strong>SIIEC</strong>. All Rights Reserved
+          &#169;Copyright <strong>SIIEC</strong> All Rights Reserved
         </div>
       </div>
     </div>
